@@ -12,7 +12,7 @@
     --light-heighlight-color: #7a9fc2; /* */
 }
 
-/* General */
+/* Global styles */
 body {
     font-family: var(--primary-font);
 }
@@ -28,11 +28,21 @@ h3 {
     color: var(--highlight-color);
 }
 
-.container .row {
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* styling for layout visualistion */
+/* .container .row {
     border: 2px solid black;
 }
 
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
